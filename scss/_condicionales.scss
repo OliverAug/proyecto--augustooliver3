@@ -1,0 +1,8 @@
+$vista: escritorio;
+
+@if ($vista==escritorio) {
+    body {
+        background: linear-gradient(to right, #76140d, #e0746d, );
+
+    }
+}

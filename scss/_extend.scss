@@ -1,0 +1,9 @@
+.primerestilo {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+.segundoestilo {
+    @extend .primerestilo;
+    font-size: medium;
+}

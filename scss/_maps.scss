@@ -1,0 +1,8 @@
+$mapRedes:(instagram:rgb(247, 198, 107), twitter:skyblue, facebook:blue, whatsapp:rgb(6, 184, 6), email:black);
+
+@each $redSocial,
+$colorRedSocial in $mapRedes {
+    .#{$redSocial} {
+        color: $colorRedSocial;
+    }
+}

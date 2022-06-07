@@ -1,0 +1,18 @@
+@mixin parrafos {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+
+}
+
+
+@mixin parrafoConParametros($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+.parrafosConCambios {
+    @include parrafoConParametros(50px, justify)
+}
